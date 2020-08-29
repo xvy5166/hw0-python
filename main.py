@@ -1,3 +1,3 @@
-celcius = float(input("Enter temperature in celcius:"))
-Fahrenheit = (celcius - 32) *(5/9)
-print(f"{celcius} \N{degree sign} in Celcius is equivalent to {Fahrenheit} \N{degree sign} Fahrenheit")
+celsius = float(input("Enter temperature in celsius: "))
+Fahrenheit = float(celsius*1.8+32)
+print(f"{celsius} \N{degree sign} in Celcius is equivalent to {Fahrenheit} \N{degree sign} Fahrenheit")
